@@ -67,6 +67,9 @@
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
+  font-weight: bold;
+  text-decoration: underline;
+  color: blue;
 }
 
 .grid {
@@ -118,4 +121,17 @@
     width: 100%;
     flex-direction: column;
   }
+}
+.descriptionPage{
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+}
+.linkPage{
+  font-weight: bold;
+  text-decoration: underline;
+  color:blue;
+}
+.verticalAlignMiddle{
+  vertical-align: middle;
 }
