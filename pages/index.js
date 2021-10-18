@@ -8,15 +8,19 @@ export default function Home({ countries }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Next.js with Apollo Client App</title>
+        <title>Mauricio Vela</title>
         <meta name="description" content="Next.js with Apollo App" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Next.js with Apollo Client App
+          Mauricio Vela
         </h1>
+
+        <h2 className={styles.title}>
+          Next.js with Apollo Client App
+        </h2>
 
         <div>
           <p className={styles.description}>  </p>
