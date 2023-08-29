@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import {gql} from '@apollo/client';
 import client from '../apollo-client';
+export const runtime = 'edge';
 
 export default function Home({ countries }) {
     return (
